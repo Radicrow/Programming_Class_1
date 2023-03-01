@@ -14,7 +14,10 @@ int main(void){
 	{
 		value = value + 1000;
 	}
-	
-	printf("%f", value);
+	else
+	{
+		printf("Your salary doesn't need a bonus\n");
+	}
+	printf("Your salary is: %f", value);
 		
 	}
