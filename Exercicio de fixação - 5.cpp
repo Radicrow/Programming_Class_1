@@ -13,19 +13,19 @@ int cord(){
 	printf("Y:");
 	scanf("%f", &y);
 	
-	if (x>0 and y>0)
+	if (x>0 && y>0)
 	{
 		printf("O ponto %f,%f se encontra no primeiro quadrante", x,y);
 	}
-	else if (x<0 and y>0)
+	else if (x<0 && y>0)
 	{
 		printf("O ponto %f,%f se encontra no segundo quadrante", x,y);
 	}
-	else if (x<0 and y<0)
+	else if (x<0 && y<0)
 	{
 		printf("O ponto %f,%f se encontra no terceiro quadrante", x,y);
 	}
-	else if (x>0 and y<0)
+	else if (x>0 && y<0)
 	{
 		printf("O ponto %f,%f se encontra no quarto quadrante", x,y);
 	}
