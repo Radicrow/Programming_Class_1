@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+
 
 /*In a drone flight control system, there are two regions
 allowed for the drone to make a Landing. Develop code that reads the drone's landing coordinates and
