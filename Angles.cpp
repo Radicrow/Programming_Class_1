@@ -9,8 +9,7 @@ void functions()
     scanf("%lf", &angulo_graus);
 
     angulo_radianos = angulo_graus * M_PI / 180.0;
-
-    // Calculate sine value
+    
     seno = sin(angulo_radianos);
     cosseno = cos(angulo_radianos);
     tangente = tan(angulo_radianos);
@@ -18,12 +17,12 @@ void functions()
     cossecante = 1/sin(angulo_radianos);
     cotangente = 1/tan(angulo_radianos);
 
-    printf("O seno do angulo %.2lf é %.4lf\n", angulo_graus, seno);
-    printf("O cosseno do angulo %.2lf é %.4lf\n", angulo_graus, cosseno);
-    printf("A tangente do angulo %.2lf é %.4lf\n", angulo_graus, tangente);
-    printf("A secante do angulo %.2lf é %.4lf\n", angulo_graus, secante);
-    printf("A cossecante do angulo %.2lf é %.4lf\n", angulo_graus, cossecante);
-    printf("A cotangente do angulo %.2lf é %.4lf\n", angulo_graus, cotangente);
+    printf("O seno do angulo %.2lf Ã© %.4lf\n", angulo_graus, seno);
+    printf("O cosseno do angulo %.2lf Ã© %.4lf\n", angulo_graus, cosseno);
+    printf("A tangente do angulo %.2lf Ã© %.4lf\n", angulo_graus, tangente);
+    printf("A secante do angulo %.2lf Ã© %.4lf\n", angulo_graus, secante);
+    printf("A cossecante do angulo %.2lf Ã© %.4lf\n", angulo_graus, cossecante);
+    printf("A cotangente do angulo %.2lf Ã© %.4lf\n", angulo_graus, cotangente);
 }
 
 int main(void){
